@@ -1,0 +1,215 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+
+.hero--home-banner {
+  background-image: url("../../dist/images/site/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .overlay--black {
+    background: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+.has-text {
+  &-white {
+    color: white;
+  }
+}
+
+.transition--enable {
+  &-one {
+    transition: 1s;
+  }
+
+  &-half {
+    transition: 0.5s;
+  }
+}
+
+.transition--disable {
+  transition: 0s;
+}
+
+.padding {
+  &-top--xs {
+    padding-top: 0.25rem;
+  }
+  &-top--sm {
+    padding-top: 0.5rem;
+  }
+  &-top--md {
+    padding-top: 1rem;
+  }
+  &-top--lg {
+    padding-top: 2rem;
+  }
+  &-bottom--xl {
+    padding-bottom: 3rem;
+  }
+  &-bottom--xs {
+    padding-bottom: 0.25rem;
+  }
+  &-bottom--sm {
+    padding-bottom: 0.5rem;
+  }
+  &-bottom--md {
+    padding-bottom: 1rem;
+  }
+  &-bottom--lg {
+    padding-bottom: 2rem;
+  }
+  &-bottom--xl {
+    padding-bottom: 3rem;
+  }
+  &-left--xs {
+    padding-left: 0.25rem;
+  }
+  &-left--sm {
+    padding-left: 0.5rem;
+  }
+  &-left--md {
+    padding-left: 1rem;
+  }
+  &-left--lg {
+    padding-left: 2rem;
+  }
+  &-left--xl {
+    padding-left: 3rem;
+  }
+  &-right--xs {
+    padding-right: 0.25rem;
+  }
+  &-right--sm {
+    padding-right: 0.5rem;
+  }
+  &-right--md {
+    padding-right: 1rem;
+  }
+  &-right--lg {
+    padding-right: 2rem;
+  }
+  &-right--xl {
+    padding-right: 3rem;
+  }
+  &--xs {
+    padding: 0.25rem;
+  }
+  &--sm {
+    padding: 0.5rem;
+  }
+  &--md {
+    padding: 1rem;
+  }
+  &--lg {
+    padding: 2rem;
+  }
+  &--xl {
+    padding: 4rem;
+  }
+}
+
+.margin {
+  &-top--xs {
+    margin-top: 0.25rem;
+  }
+  &-top--sm {
+    margin-top: 0.5rem;
+  }
+  &-top--md {
+    margin-top: 1rem;
+  }
+  &-top--lg {
+    margin-top: 2rem;
+  }
+  &-bottom--xl {
+    margin-bottom: 3rem;
+  }
+  &-bottom--xs {
+    margin-bottom: 0.25rem;
+  }
+  &-bottom--sm {
+    margin-bottom: 0.5rem;
+  }
+  &-bottom--md {
+    margin-bottom: 1rem;
+  }
+  &-bottom--lg {
+    margin-bottom: 2rem;
+  }
+  &-bottom--xl {
+    margin-bottom: 3rem;
+  }
+  &-left--xs {
+    margin-left: 0.25rem;
+  }
+  &-left--sm {
+    margin-left: 0.5rem;
+  }
+  &-left--md {
+    margin-left: 1rem;
+  }
+  &-left--lg {
+    margin-left: 2rem;
+  }
+  &-left--xl {
+    margin-left: 3rem;
+  }
+  &-right--xs {
+    margin-right: 0.25rem;
+  }
+  &-right--sm {
+    margin-right: 0.5rem;
+  }
+  &-right--md {
+    margin-right: 1rem;
+  }
+  &-right--lg {
+    margin-right: 2rem;
+  }
+  &-right--xl {
+    margin-right: 3rem;
+  }
+  &--xs {
+    margin: 0.25rem;
+  }
+  &--sm {
+    margin: 0.5rem;
+  }
+  &--md {
+    margin: 1rem;
+  }
+  &--lg {
+    margin: 2rem;
+  }
+  &--xl {
+    margin: 4rem;
+  }
+}
